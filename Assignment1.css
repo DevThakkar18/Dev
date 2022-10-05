@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+html, body{
+    min-height: 120%;
+}
+body
+{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,6ec1bc+55,050200+100 */
+background: rgb(0,0,0); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(0,0,0,1) 0%, rgba(110,193,188,1) 55%, rgba(5,2,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,1) 0%,rgba(110,193,188,1) 55%,rgba(5,2,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(0,0,0,1) 0%,rgba(110,193,188,1) 55%,rgba(5,2,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#050200',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+padding:0px; 
+margin:0px;
+}
+
+h1, p{
+    color: white;
+    text-align: center;
+}
+
+p:hover{
+    color:black
+}
+
+.box  
+{ 
+    height: 30%; 
+    width: 10%;
+    opacity:100;
+    display: inline-block;
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+
+.box:hover{
+    background-color: white;
+    height: 20%; 
+    width: 10%;
+    opacity: 1;
+    color: black;
+
+}
+
+
+
+ul,h3{
+    color: white;
+    font-size: large;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+}
+
+.clear{
+    clear: both;
+}
+
+#footer{
+    color: white;
+    position: fixed;
+    padding: 5%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    background-color: black;
+    text-align: center;
+}
+
